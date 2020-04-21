@@ -1,0 +1,24 @@
+img {
+    float: right;
+}
+
+p {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-top: 50px;
+    width: 150px;
+    height: 75px;
+    text-align: center;
+}
+
+#FloatedElement {
+    text-align: right;
+}
+
+#RoundedBorderCorners {
+    text-align: left;
+}
+
+h2 {
+    padding-left: 65px;
+}
