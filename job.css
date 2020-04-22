@@ -1,0 +1,88 @@
+body {
+    background-image: url('twilight.png');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+h2 {
+    font-family: "Playfair Display SC";
+    text-align: center;
+    font-size: 30px;
+    border:solid 1px black;
+    background: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 30%;
+    transform: translateX(100%);
+    box-shadow: 5px 5px;
+    overflow: hidden;
+   }
+
+fieldset{
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    white-space: nowrap;
+}
+
+legend {
+    font-family: "Playfair Display SC";
+}
+
+#Account {
+    padding: 10px;
+    padding-bottom: 37px;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+#PersonalInfo {
+    padding: 10px;
+    float: left;
+}
+
+#Avail {
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#PersonalState {
+    padding: 10px;
+    padding-bottom: 31px;
+}
+
+#Submit {
+    float: left;
+}
+
+.dropdown {
+    position: absolute;
+    padding-left: 5px;
+    float: left;
+    transform: translateY(-140%) translateX(-6%);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
